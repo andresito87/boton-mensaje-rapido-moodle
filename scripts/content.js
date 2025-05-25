@@ -13,16 +13,10 @@
   });
 
   function procesarCursos() {
-    // Obtener sesskey una sola vez
     const sesskeyMatch = document
       .querySelector('a[href*="sesskey="]')
       ?.href.match(/sesskey=([\w]+)/);
     const sesskey = sesskeyMatch ? sesskeyMatch[1] : null;
-
-    if (!sesskey) {
-      console.warn("No se encontró el 'sesskey'");
-      return;
-    }
 
     const cards = document.querySelectorAll(".card-cursos");
 
@@ -32,7 +26,6 @@
 
       if (!footer || !courseId) return;
 
-      // Evitar duplicados
       if (footer.querySelector(".custom-msg-btn")) return;
 
       const newButtonDiv = document.createElement("div");
