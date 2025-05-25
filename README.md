@@ -11,6 +11,7 @@ Este es un proyecto de código abierto que proporciona una extensión para naveg
 
 ## Capturas de pantalla
 
+![Imagen de la extensión en Chrome](image-extension.png)
 ![Icono](image.png)
 
 ## Instalación
