@@ -35,6 +35,8 @@ Este es un proyecto de código abierto que proporciona una extensión para naveg
 5. La extensión debería aparecer en la lista de extensiones instaladas.
 6. Haz clic en el icono de la extensión para abrir la mensajería de Moddle.
 
+### Disponible para Firefox en [Addons-Mozilla.org](https://addons.mozilla.org/es-ES/firefox/addon/bot%C3%B3n-mensaje-moodle/)
+
 ## Licencia
 
 Este proyecto está licenciado bajo GNU General Public License v3.0. Puedes ver el archivo [LICENSE](LICENSE) para más detalles.
